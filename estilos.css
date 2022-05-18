@@ -1,11 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Island+Moments&family=Libre+Bodoni:ital@1&family=Moon+Dance&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -108,8 +107,8 @@ header {
 
 .feature img {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 85%;
 }
@@ -127,8 +126,8 @@ header {
   min-height: 200px;
   background-color: beige;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .seccion2 h4 {
@@ -166,8 +165,8 @@ header {
   width: 33.33333%;
   height: 500px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .carousel-inner img {
@@ -585,7 +584,7 @@ footer a {
   line-height: 30px;
   border-radius: 50%;
   -webkit-box-shadow: 4px 4px 15px black;
-  box-shadow: 4px 4px 15px black;
+          box-shadow: 4px 4px 15px black;
 }
 
 /*Nosotros*/
@@ -684,11 +683,11 @@ footer a {
 
 .img:hover {
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-transition: all 0.75s;
   transition: all 0.75s;
   -webkit-filter: sepia(100%);
-  filter: sepia(100%);
+          filter: sepia(100%);
 }
 
 .img1 {
@@ -754,18 +753,18 @@ footer a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 5px;
   height: 100%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   border: 2px solid red;
   padding: 10px;
   margin: 10px;
@@ -780,28 +779,28 @@ footer a {
 .tabla_Container {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #e3b23c;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
   height: 100%;
   font-size: 12px;
   -webkit-box-shadow: 5px 5px 7px 0px #000;
-  box-shadow: 5px 5px 7px 0px #000;
+          box-shadow: 5px 5px 7px 0px #000;
 }
 
 .animacion1 {
   -webkit-animation-name: animacion1;
-  animation-name: animacion1;
+          animation-name: animacion1;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion1 {
@@ -809,23 +808,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -837,23 +833,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -862,13 +855,13 @@ footer a {
 
 .animacion2 {
   -webkit-animation-name: animacion2;
-  animation-name: animacion2;
+          animation-name: animacion2;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion2 {
@@ -876,23 +869,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -904,23 +894,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -929,13 +916,13 @@ footer a {
 
 .animacion3 {
   -webkit-animation-name: animacion3;
-  animation-name: animacion3;
+          animation-name: animacion3;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion3 {
@@ -943,23 +930,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -971,23 +955,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -996,13 +977,13 @@ footer a {
 
 .animacion4 {
   -webkit-animation-name: animacion4;
-  animation-name: animacion4;
+          animation-name: animacion4;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion4 {
@@ -1010,23 +991,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1038,23 +1016,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1063,13 +1038,13 @@ footer a {
 
 .animacion5 {
   -webkit-animation-name: animacion5;
-  animation-name: animacion5;
+          animation-name: animacion5;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion5 {
@@ -1077,23 +1052,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1105,23 +1077,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1130,13 +1099,13 @@ footer a {
 
 .animacion6 {
   -webkit-animation-name: animacion6;
-  animation-name: animacion6;
+          animation-name: animacion6;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 @-webkit-keyframes animacion6 {
@@ -1144,23 +1113,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1172,23 +1138,20 @@ footer a {
     border-radius: 0%;
     background-color: #e3b23c;
   }
-
   35% {
     border-radius: 5%;
     background-color: #ffbf00;
     -webkit-transform: translateY(50px);
-    transform: translateY(50px);
+            transform: translateY(50px);
   }
-
   65% {
     border-radius: 5%;
     background-color: #dfa00f;
     -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+            transform: translateX(50px);
     -webkit-transform: translatey(20px);
-    transform: translatey(20px);
+            transform: translatey(20px);
   }
-
   100% {
     border-radius: 0%;
     background-color: #e3b23c;
@@ -1205,13 +1168,13 @@ footer a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   border: 2px solid red;
   padding: 10px;
   margin: 10px;
@@ -1221,12 +1184,12 @@ footer a {
   background-color: goldenrod;
   width: 70%;
   -webkit-box-shadow: 5px 5px 7px 0px #333;
-  box-shadow: 5px 5px 7px 0px #333;
+          box-shadow: 5px 5px 7px 0px #333;
   color: white;
   padding: 20px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .formContainer__title {
@@ -1291,10 +1254,10 @@ footer a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   border: 2px solid red;
   padding: 10px;
   margin: 10px;
@@ -1304,11 +1267,11 @@ footer a {
   background-color: goldenrod;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 16px;
   width: 100%;
   height: 100%;
@@ -1322,20 +1285,20 @@ footer a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-align: center;
   font-size: 32px;
   -webkit-animation-name: moto;
-  animation-name: moto;
+          animation-name: moto;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
-  animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
   -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 @-webkit-keyframes moto {
@@ -1343,37 +1306,31 @@ footer a {
     width: 100px;
     color: black;
   }
-
   20% {
     width: 120px;
     color: #ffbf00;
     padding-left: 20%;
   }
-
   40% {
     width: 140px;
     color: red;
     padding-left: 40%;
   }
-
   60% {
     width: 160px;
     color: black;
     padding-left: 60%;
   }
-
   80% {
     width: 180px;
     color: yellow;
     padding-left: 80%;
   }
-
   90% {
     width: 190px;
     color: red;
     padding-left: 90%;
   }
-
   100% {
     width: 200px;
     color: black;
@@ -1386,37 +1343,31 @@ footer a {
     width: 100px;
     color: black;
   }
-
   20% {
     width: 120px;
     color: #ffbf00;
     padding-left: 20%;
   }
-
   40% {
     width: 140px;
     color: red;
     padding-left: 40%;
   }
-
   60% {
     width: 160px;
     color: black;
     padding-left: 60%;
   }
-
   80% {
     width: 180px;
     color: yellow;
     padding-left: 80%;
   }
-
   90% {
     width: 190px;
     color: red;
     padding-left: 90%;
   }
-
   100% {
     width: 200px;
     color: black;
@@ -1426,9 +1377,8 @@ footer a {
 
 #mapa {
   -ms-flex-negative: initial;
-  flex-shrink: initial;
+      flex-shrink: initial;
   width: 100%;
   height: 100%;
 }
-
 /*# sourceMappingURL=estilos.css.map */
